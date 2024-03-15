@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(assets/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
 .side-menu {
   display: flex;
   padding: 0.75rem;
