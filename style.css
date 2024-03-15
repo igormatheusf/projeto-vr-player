@@ -25,6 +25,22 @@ body {
   'aside footer';
 }
 
+header {
+  grid-area: header;
+}
+
+aside {
+  grid-area: aside;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
 .side-menu {
   display: flex;
   padding: 0.75rem;
