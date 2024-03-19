@@ -1,5 +1,4 @@
 var tag = document.createElement("script")
-
 tag.src = "https://www.youtube.com/iframe_api"
 var firstScriptTag = document.getElementsByTagName("script")[0]
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
@@ -10,9 +9,9 @@ let animationHasEnded = false
 const videoId = "qC0vDKVPCrw"
 
 function createAmbientLight() {
-  if (!animationHasEnded) return
+  if(!animationHasEnded) return
 
-  ambientLight = new YT.Player("video", {
+  ambientLight = new YT.Player("ambient-light", {
     videoId,
     events: {
       onReady: ambientLightReady,
@@ -52,15 +51,16 @@ function betterAmbientLight(event) {
   if (qualityLevels && qualityLevels.length && qualityLevels.length > 0) {
     qualityLevels.reverse()
     const lowestLevel =
-        qualityLevels[qualityLevels.findIndex((q) => q !== "auto")]
+      qualityLevels[qualityLevels.findIndex((q) => q !== "auto")]
 
-      event.target.setPlaybackQuality(lowestLevel)
+    event.target.setPlaybackQuality(lowestLevel)
   }
 }
 
 function ambientLightReady(event) {
   betterAmbientLight(event)
 }
+
 function ambientStateChange(event) {
   switch (event.data) {
     case YT.PlayerState.BUFFERING:
