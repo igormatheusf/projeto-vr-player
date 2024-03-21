@@ -5,7 +5,8 @@
 }
 
 body {
-  background-image: url(assets/bg.jpg);
+  /* background-image: url(assets/bg.jpg); */
+  background-color:rgb(0, 0, 53);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -46,7 +47,7 @@ main {
 footer {
   grid-area: footer;
 }
-
+/* 
 .side-menu {
   display: flex;
   padding: 0.75rem;
@@ -177,10 +178,10 @@ footer {
   height: 1rem;
 
   margin-top: -2px;
-}
+} */
 
 .screen {
-  width: 60rem;
+  width: 19rem;
   height: 33.75rem;
 
   border-radius: 32px;
@@ -224,10 +225,10 @@ footer {
   scale: 1.2;
   filter: blur(100px) opacity(0.5) saturate(300%);
 
-  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 200px rgba(0, 0, 0, 0);
 }
 
-.interaction {
+/* .interaction {
   align-items: center;
   display: flex;
   gap: 1rem;
@@ -249,7 +250,7 @@ footer {
   backdrop-filter: blur(2px);
   background: rgba(255, 255, 255, 0.6);
   border-radius: 8px;
-}
+} */
 
 #app {
   animation: appear 400ms 500ms backwards;
