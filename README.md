@@ -25,5 +25,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-Nesse projeto iremos desenvolver uma versão web de uma experiência de player de vídeo em realidade virtual.
+Nesse projeto desenvolvemos uma experiência de player de vídeo em realidade virtual, na versão web.
 
