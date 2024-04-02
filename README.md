@@ -1,5 +1,5 @@
 <p align="center">
-Aplicação desenvolvida no desafio #boraCodar25.
+Aplicação desenvolvida no desafio #boraCodar25 da Rocketseat.
 </p>
 
 <p align="center">
